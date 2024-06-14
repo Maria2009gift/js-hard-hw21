@@ -1,0 +1,45 @@
+
+* {
+    font-family: "Arimo", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    padding: 0 400px;
+    justify-content: space-around;
+}
+
+#createPostForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#titleInput {
+    height: 20px;
+    border: none;
+    background-color: #ced3ce;
+}
+
+#contentInput {
+    height: 250px;
+    width: 500px;
+    border: none;
+    background-color: #b0b0b0;
+}
+
+.post {
+    margin-bottom: 30px;
+    padding: 2px;
+    border: 1px solid black;
+    width: 500px;
+}
+
+.postP {
+    display: flex;
+    flex-wrap: wrap;
+}
+

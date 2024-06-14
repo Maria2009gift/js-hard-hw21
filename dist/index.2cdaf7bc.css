@@ -1,0 +1,44 @@
+* {
+  font-family: Arimo, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  justify-content: space-around;
+  padding: 0 400px;
+  display: flex;
+}
+
+#createPostForm {
+  flex-direction: column;
+  display: flex;
+}
+
+#titleInput {
+  background-color: #ced3ce;
+  border: none;
+  height: 20px;
+}
+
+#contentInput {
+  background-color: #b0b0b0;
+  border: none;
+  width: 500px;
+  height: 250px;
+}
+
+.post {
+  border: 1px solid #000;
+  width: 500px;
+  margin-bottom: 30px;
+  padding: 2px;
+}
+
+.postP {
+  flex-wrap: wrap;
+  display: flex;
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
